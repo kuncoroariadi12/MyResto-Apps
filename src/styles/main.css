@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rancho&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* skip to content */
+.skip-content {
+  position: absolute;
+  background-color: rgb(226, 25, 25);
+  color: black;
+  top: -45px;
+  left: 0;
+  padding: 15px;
+  display: block;
+  min-width: 44px;
+  min-height: 44px;
+  z-index: 999;
+}
+
+.skip-content:focus {
+  top: 0;
+}
+
+/* Desktop Navbar */
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: aquamarine;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-logo {
+  font-family: 'Rancho', cursive;
+  display: flex;
+  width: 10%;
+  align-items: center;
+  box-sizing: block;
+  font-size: 25px;
+  line-height: 20px;
+  min-width: 44px;
+  min-height: 44px;
+  margin-left: 2em;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: right;
+  width: 80%;
+  margin: 0;
+  padding: 0 2em;
+  text-align: center;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.nav-item {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #b1a7a7;
+}
+
+.nav-item a {
+  min-width: 44px;
+  min-height: 44px;
+}
