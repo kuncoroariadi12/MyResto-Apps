@@ -18,13 +18,14 @@ body {
   position: absolute;
   background-color: #FF9500;
   color: rgb(255, 255, 255);
-  top: -45px;
+  top: -100px;
   left: 0;
   padding: 15px;
   display: block;
   min-width: 44px;
   min-height: 44px;
-  z-index: 999;
+  z-index: 999999;
+  text-decoration: none;
 }
 
 .skip-content:focus {
@@ -291,6 +292,8 @@ footer{
   margin-inline-end: 0rem;
   align-items: center;
   background-color: #FF9500;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 footer .footer-container{
@@ -313,6 +316,8 @@ footer .footer-content .footer-text p{
 }
 
 footer .footer-content .footer-social-media{
+  min-width: 44px;
+  min-height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -324,19 +329,31 @@ footer .footer-content .footer-social-media ul{
   justify-content: center;
   padding-inline: 0rem;
   gap: 1rem 1rem;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 footer .footer-content .footer-social-media li{
   text-align: center;
   align-items: center;
   list-style: none;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+footer .footer-content .footer-social-media a{
+  padding-inline: 7px;
+  font-size: 2.2rem;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 footer .footer-content .footer-social-media li a{
+  min-width: 44px;
+  min-height: 44px;
   align-items: center;
   text-align: center;
   text-decoration: none;
-  font-size: 2rem;
   color: #ffffff;
   cursor: pointer;
   transition: all .20s ease-in-out;
