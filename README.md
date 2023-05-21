@@ -1,5 +1,5 @@
 # MyResto-Apps
-(Undone) Submission 1 - Menjadi Front-End Web Developer Expert
+(Done With 3 Stars) Submission 1 - Menjadi Front-End Web Developer Expert
 
 First thing first! do:
 
@@ -8,3 +8,4 @@ First thing first! do:
 and
 
 `npm build`
+
